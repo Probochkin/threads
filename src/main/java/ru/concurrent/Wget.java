@@ -6,7 +6,7 @@ public class Wget {
                 () -> {
                     try {
                         for (int i = 0; i <= 100; i++) {
-                            Thread.sleep(100);
+                            Thread.sleep(1000);
                             System.out.print("\rLoading : " + i + "%");
                         }
                     } catch (InterruptedException e) {
